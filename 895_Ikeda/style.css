@@ -1,0 +1,22 @@
+div {
+    border:1px solid black;
+    width: calc(100vw);
+    height: calc(100vh);
+    background-color: blue;
+}
+
+.parent{
+    width: 80%;
+    height: 80%;
+    background-color:greenyellow;
+}
+
+.child{
+    width: 300px;
+    height: 100px;
+    background-color:pink;
+}
+
+select{
+    border: 0px none;
+}

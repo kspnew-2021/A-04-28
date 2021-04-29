@@ -1,0 +1,78 @@
+body{
+    font-family:sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(image_20210414_14.39.33.png);
+    background-size: 100px;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+main{
+    background-image: url(image_20210414_13.15.45.jpg);
+    background-size: 1200px;
+}
+header{
+    font-family: cursive;
+    align-items: center;
+    height: 200;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:cornflowerblue;
+    background-image: url(image_20210414_09.52.00.jpg);
+    background-size: 1200px;
+    text-align : center;
+}
+h1{
+    font-size: 80px;
+    margin: 20px;
+}
+
+select{
+    margin: -20px 10px -50px 10px;
+    padding: 10px 20px 10px 20px;
+        border: 0px none;
+    }
+
+    img {
+        border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+               /* ※縦横を同値に */
+               /* ※縦横を同値に */
+        margin: 20px;
+
+    }
+
+    .inner {
+        float:left;
+    }
+    h3{
+        font-size: 40px
+    }
+
+    p{
+        font-size: 30px;
+    }
+    div > .syoukai{
+        padding: 10px;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+      }
+      
+      .nav{
+        display: flex;
+        flex-direction: row;
+      }
