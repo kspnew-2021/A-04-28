@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+	<link rel="stylesheet" href="スライド.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<!-- スライドバー -->
+	<div class="swiper-container">
+		<!-- スライドバーの表示部分 -->
+		<div class="swiper-wrapper">
+			<!-- メンバーの画像とリンク -->
+			<!--池田-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\895_Ikeda\895 Ikeda.html">
+					<img src="img/池田.png"></a></div>
+			<!--齋藤-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\齋藤　自己紹介\892.html">
+					<img src="img/齋藤.png"></a></div>
+			<!--足立-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\900 足立佳乃子\900_mypage.html">
+					<img src="img/足立.png"></a></div>
+			<!--岩原-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\岩原　自己紹介\910iwahara.html">
+					<img src="img/岩原.png"></a></div>
+			<!--和田-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\905和田自己紹介\905profile.html">
+					<img src="img/和田.png"></a></div>
+			<!--石井-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\石井　自己紹介ページ\911-ishii.html">
+					<img src="img/石井.png"></a></div>
+			<!--菅原-->
+			<div class="swiper-slide"><a
+					href="\\nautilus\本社開発ファイルサーバー\H_研修\2_共有\2_グループワーク\20210426_[HTML・Linux]チームページの制作\Aチーム\907_sugawara\907_myPage.html">
+					<img src="img/菅原.png"></a></div>
+		</div>
+		<!-- 次へと戻るボタン -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	</div>
+	<!-- スライドバーここまで -->
+
+	<!-- スクリプト部分 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js">
+	</script>
+	<script>
+		// スクロール必須の設定
+		var mySwiper = new Swiper('.swiper-container', {
+			//スクロールのループ
+			loop: true,
+			//次へボタンの戻るボタン
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true
+			}
+		});
+	</script>
+	<!-- スクリプトここまで -->
+</body>
+
+</html>

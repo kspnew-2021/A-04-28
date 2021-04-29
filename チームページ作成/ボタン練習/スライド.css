@@ -1,0 +1,50 @@
+
+/* スライドバーの位置調整 */
+.swiper-container{
+    position: relative;
+    top :0px;
+}
+/* サイズ*/
+.swiper-wrapper {
+	width: 100%;
+	height: 235px;
+}
+
+.swiper-slide {
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 250px;
+}
+
+/* ７(メンバー)の倍数で位置を計算 */
+
+/* 石井 */
+.swiper-slide:nth-child(7n) {
+	background-color: pink; 
+}
+/*菅原*/
+.swiper-slide:nth-child(7n+1) {
+	background-color: white;
+}
+/*池田*/
+.swiper-slide:nth-child(7n+2) {
+	background-color: skyblue;
+}
+/*齋藤*/
+.swiper-slide:nth-child(7n+3) {
+	background-color: green;
+}
+/*足立*/
+.swiper-slide:nth-child(7n+4) {
+	background-color: red;
+}
+/*岩原*/
+.swiper-slide:nth-child(7n+5) {
+	background-color: yellow;
+}
+/*和田*/
+.swiper-slide:nth-child(7n+6) {
+	background-color: aqua;
+}
