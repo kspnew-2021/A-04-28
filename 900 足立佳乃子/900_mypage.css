@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header{
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: antiquewhite;
+    background-size: 1200px;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+    margin: 20px;
+    font-family: cursive;
+}
+select{
+    margin: -20px 10px -50px 10px;
+    padding: 10px 20px 10px 20px;
+    border: 0px none;
+}
+main{
+    background-color: mistyrose;
+}
+h2{
+    color: saddlebrown;
+    font-family: fantasy; 
+    text-align: center;   
+}
+ul{
+    width: 30%;
+    margin: auto;
+}
+li{
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+}
+.text{
+    color: Sienna;
+    font-family: "Yu mincho";
+    font-weight: bold;
+    font-size: 25px;
+}
+span{
+    font-family: fantasy; 
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.container2,.container3, .container4{
+    margin-left: 250px;
+}
+footer{
+    font-family: cursive;
+    padding: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+}
