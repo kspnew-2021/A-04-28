@@ -1,0 +1,140 @@
+header{
+  align-items:center;
+  height: 200;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:rgb(35, 100, 102);
+  text-align: center;
+  
+}
+h1{
+    font-size: 45px;
+    margin-top: 20px;
+    color: cornsilk;
+    font-family:'Gloria Hallelujah', cursive;
+    animation: poyoyon 1s ease-in-out 1 forwards;
+}
+@keyframes poyoyon {
+  0%  {
+    transform: scale(1.0, 1.0) translate(0, 0);
+  }
+  15% {
+    transform: scale(0.98, 0.9) translate(0, 5px);
+  }
+  30% {
+    transform: scale(1.02, 1.0) translate(0, 8px);
+  }
+  50% {transform: scale(0.98, 1.05) translate(0, -8px);
+  }
+  70% {
+    transform: scale(1.0, 0.9) translate(0, 5px);
+  }
+  100% {
+    transform: scale(1.0, 1.0) translate(0, 0);
+  }
+  0%, 100% {
+    opacity: 1;
+  }
+}
+.hdeco{
+    height: 180px;
+    width: 300px;
+    opacity:50%;
+     justify-content:left;
+     align-items:center;
+    
+  
+}
+.tdeco{
+    display: flex;
+    flex-direction: row;
+}
+
+select{
+    margin: -20px 10px -50px 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #ffc0cb;
+    margin-top: 100px;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;    
+        background-color: hsl(187, 3%, 49%);
+        background-image:
+         linear-gradient(0deg, #fff 50%, transparent 50%);
+        background-size: 120px 120px;     
+}
+   
+main{
+    background-color:rgb(132, 215, 218) ;
+    height: 100%;
+    flex-wrap: wrap;
+    border:3px solid rgb(35, 100, 102);
+    padding: 10%;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.under{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.profile{
+    border-radius: 50%;/*角丸半径を50％にする＝円形にする*/
+     width: 300px;
+     height: 300px;
+     margin: 30px 10px;
+     border: 2px solid black;
+ }
+ 
+li{
+    list-style: none;
+   
+    margin: 20px 0;
+}
+
+span{
+    font-size: 42px;
+    font-family:'Times New Roman', Times, serif;
+    color: #4c517F;
+    background: linear-gradient(transparent 50%, rgb(240, 178, 45) 50%);
+}
+
+.text{
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 87, 252);
+    font-weight: bold;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    height: 150px;
+    background-color:rgb(35, 100, 102);
+    justify-content: space-between;
+    
+    align-items:center;
+
+}
+h2{
+    background-color: rgb(240, 178, 45);
+    padding: 10px;
+    margin: 100px;
+    border-radius: 10px 20px 15px 30px;
+  
+}

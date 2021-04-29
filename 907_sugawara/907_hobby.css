@@ -1,0 +1,152 @@
+header{
+    align-items: center;
+    height:200;
+    justify-content: space-between;
+    padding:10px;
+    background-color: white;
+    background-image: url(./img/sasa.jpg);
+    text-align: center;
+}
+
+header > h1{
+    font-size:45px;
+    margin :20px
+}
+
+header > select{
+    margin: -20px 10px -50px 10px;
+    padding: 10px 20px 10px 20px;
+    border: 0px none;
+}
+
+body{
+    max-width: 1200px;
+    height:100%;
+    margin : 0 auto;
+}
+
+body .nav{
+    display:flex;
+}
+
+body .nav div{
+    flex: 1 0 100px;
+    padding:10px;
+    align-self: center;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+}
+
+a{
+    color:white;
+}
+
+/*箇条書き */
+ul  li{
+    list-style: none;
+}
+
+ul > li{
+    font-weight: bold ;
+}
+
+ul > li > h3{
+    color:black;
+}
+
+/* 各種項目見出し */
+h2{
+    text-align: center;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
+    background-color: gray;
+    color : white;
+    margin:0 0;
+}
+
+p{
+    font-size:25px;
+}
+
+h3{
+    font-size:30px;
+}
+
+li{
+    font-size:30px;
+}
+/* メイン */
+.main{
+    display:flex;
+    flex-direction: column;
+    max-width: 1200px;
+    background-color: rgb(221, 247, 102);
+}
+
+.main h3{
+    border-bottom: 5px double green;
+}
+
+/* 基本情報 */
+.hobby{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color:white;
+}
+
+span{
+    color : red;
+}
+
+article > ul{
+    margin-left: 200px;
+}
+
+.hobby > .hobbyImg{
+    margin: 50px 100px 10px 0;
+}
+
+/* 画像X枚目 */
+.hobby > .hobbyImg2{
+    position: absolute;
+    top: 55%;
+    left:50%;
+}
+
+/* 画像のサイズ */
+.gazo{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 3px 1px black ;
+}
+
+.headerGazo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 3px 1px black ;
+}
+
+header > .headerImg{
+    position: absolute;
+    top:5%;
+    left: 25%;
+}
+
+.footer{
+    border-top : 3px solid black;
+    height:50px;
+}
+/* ページ表示アニメーション */
+
+body{
+    animation: pageOpen 1s ease 0s 1 normal;
+}
+
+@keyframes pageOpen{
+    0%{opacity: 0}
+    100%{opacity: 1};
+}
