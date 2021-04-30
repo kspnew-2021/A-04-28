@@ -1,0 +1,88 @@
+header{
+    align-items:center;
+    height: 200px;
+    justify-content:space-between;
+    padding:10px;
+    background-color: cornflowerblue;
+    background-size:1200px;
+    text-align: center;
+}
+.moji{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(241, 30, 30);
+    height:60px;
+    line-height: 150px;
+}
+.mask {
+	width:			10%;
+	height:			25%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			15px;
+	left:			180px;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+.icon{
+    border-radius: 50%;
+    width: 180px;
+    height:180px;
+    position: absolute;
+    top: 15px;
+    left: 160px;;
+    overflow:		hidden;
+}
+
+h1{
+    font-size: 50px;
+    margin:20px;
+    font-family: 'Lobster', cursive;
+}
+select{
+    margin: -20px 10px -50px 10px;
+    padding:10px 20px 10px 20px;
+    border:0px none;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/sora.JPG");
+   background-size: cover;
+}
+.nav{
+    display:flex;
+  }
+  .nav > div{
+    padding: 10px;
+    flex:1 1 auto;
+    text-align:center;
+    border:1px solid black;
+    background-color:#88ebb3;
+    font-size: 30px;
+  }
+.introduce{
+    padding: 10px;
+    flex:1 1 auto;
+    text-align:center;
+    border:1px solid black;
+    background-color:#a7e7ff;
+}
+.gazou{
+    border-radius: 50%;
+    width: 180px;
+    height:180px;
+}
+p{
+    margin-bottom: 3em;
+    font-size: 30px;
+    line-height:50px;
+    font-family: 'Kiwi Maru', serif;
+}
+h2{
+    font-size: 30px;
+}
