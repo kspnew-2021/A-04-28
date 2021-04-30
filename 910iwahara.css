@@ -1,0 +1,139 @@
+body{
+    margin:0 auto;
+    max-width: 1200px;
+    background-color: rgb(245, 207, 202);
+    background-image: url(images/giraffe.png);
+}
+
+header{
+    align-items: center;
+    height: 200;
+    background-color: rgb(246, 247, 197);
+    justify-content: space-between;
+    padding: 10px ;
+    text-align: center;
+    background-size: 1200px;
+    background-image: none;
+    color: rgb(88, 26, 26);
+    border-bottom: dotted 3px rgb(43, 30, 6);
+}
+
+h1{
+    font-size: 80px;
+    font-family: century;
+    margin:20px;
+}
+
+select{
+    margin: -20px 10px -50px 10px;
+    padding: 10px 20px 10px 20px;
+    border: 0px none;
+}
+
+
+.scroll {
+    display: inline-block;
+    padding-top: 70px;
+    position: relative;
+}
+.scroll::before {
+    animation: scroll 3.5s infinite;
+    border: solid #000;
+    border-width: 0 0 1px 1px;
+    content: "";
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+}
+@keyframes scroll {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    80% {
+      transform: rotate(-45deg) translate(-30px, 30px);
+    }
+    0%, 80%, 100% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    color: royalblue;
+    font-family: century;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(158, 241, 158);
+}
+
+main{
+    background-image: url(images/kabegami.webp);
+    background-color: rgba(225,225,225,0.8);
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: rgb(88, 26, 26);
+    padding: 30px;
+    
+}
+
+h2{
+    font-size: 40px;
+    font-family:'Libre Baskerville', serif;
+    padding: 20px;
+    text-decoration: underline;
+
+}
+
+
+
+.name{
+    position: relative;
+    background: rgb(248, 216, 147);
+    box-shadow: 0px 0px 0px 5px rgb(248, 216, 147);
+    border: 2px dashed white;
+    padding: 0.2em 0.5em;
+    color:rgb(88, 26, 26);
+    width: 82%;
+    margin: 50px;
+}
+
+.name:after{
+    position:absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+
+}
+
+.name p{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:'Libre Baskerville', serif; 
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(168, 120, 88);
+   
+}
